@@ -1,0 +1,176 @@
+body{
+    height: 100%;
+    font-family:sans-serif;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 260px 400px;
+    grid-gap: 0px;
+   
+}
+
+.container{
+    margin-left: 50px;
+}
+
+.blue{
+    border-radius: 20px;
+    background: rgb(69,164,245);
+    background: linear-gradient(180deg, rgba(69,164,245,1) 2%, rgba(28,17,153,1) 60%);  
+    padding-bottom: 30px;
+    position: relative;
+    top:150px;
+    left: 300px;
+    text-align: center;
+  
+}
+
+.white{
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    box-shadow: 13px 13px 15px -3px rgba(0,0,0,0.1);
+    border:  solid white;
+    background-color: white;
+    
+    padding-bottom: 30px;
+    position: relative;
+    top:150px;
+    left: 200px;
+    z-index: -1;
+    
+
+}
+
+.circle{
+    background: linear-gradient(180deg, rgba(69,164,245,1) 2%, rgba(28,17,133,1) 60%); 
+    border-radius: 50%;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    left: 55px;
+    opacity: 0.2;
+    top:90px;
+    color:white;
+    text-align: center;
+}
+
+.seventy{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    opacity: 3.5;
+    line-height: 15px;
+    margin-top: 100px;
+}
+
+.blue_content{
+    position: relative;
+    text-align: center;
+    
+}
+
+.white_content{
+    position: relative;
+    text-align: center;
+    
+    
+}
+
+
+.summary_items{
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 800px;
+    grid-gap: 10px;
+    
+}
+
+.summary_items > div{
+
+    border: 1px solid none;
+    
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 120px;
+    padding-right: 30px;
+    padding-top: 0.02px;
+    padding-left:20px
+}
+
+.end{
+    float: right;
+}
+
+.one{
+    background-color: rgb(240, 220, 220);
+} 
+
+.two{
+    background-color: rgb(226, 141, 141);
+}
+
+.three{
+    background-color: rgb(177, 195, 230);
+}
+
+.four{
+    background-color: rgb(181, 189, 199);
+}
+
+.re  {
+    color: rgb(235, 106, 106);
+    float: left;
+}
+
+.me{
+    color: rgb(252, 252, 149);
+    float: left;
+}
+
+.ve{
+    color: rgb(6, 129, 6);
+    float: left;
+}
+
+.vi{
+    color: rgb(8, 58, 75);
+    float: left;
+}
+
+button{
+    border: 0px solid rgb(6, 6, 27);
+    background-color:rgb(6, 6, 27) ;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    width: 250px;
+    margin-left: 120px;
+    padding:15px 20px 15px 20px;
+    border-left-width: 10px;
+    margin-top:20px;
+    margin-right:60px
+}
+
+@media screen and (max-width: 1000px) {
+    .grid {
+      grid-template-columns:400px
+  }
+
+  .blue{
+    position: relative;
+    top:150px;
+    left: 300px;
+    text-align: center;
+    width: 250px;
+  }
+
+  .white{
+        
+        position: relative;
+        top:140px;
+        left: 165px;
+        z-index: -1;
+  }
+}
